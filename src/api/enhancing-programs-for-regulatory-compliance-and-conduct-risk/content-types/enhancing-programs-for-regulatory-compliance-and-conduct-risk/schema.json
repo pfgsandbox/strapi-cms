@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "enhancing_programs_for_regulatory_compliance_and_conduct_risks",
+  "collectionName": "enhancing_programs",
   "info": {
-    "singularName": "enhancing-programs-for-regulatory-compliance-and-conduct-risk",
-    "pluralName": "enhancing-programs-for-regulatory-compliance-and-conduct-risks",
-    "displayName": "Enhancing Programs for Regulatory, Compliance, and Conduct Risk",
+    "singularName": "enhancing-program",
+    "pluralName": "enhancing-programs",
+    "displayName": "Enhancing programs",
     "description": ""
   },
   "options": {

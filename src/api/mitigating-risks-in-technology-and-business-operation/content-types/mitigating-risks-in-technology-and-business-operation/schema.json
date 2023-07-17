@@ -4,7 +4,7 @@
   "info": {
     "singularName": "mitigating-risks-in-technology-and-business-operation",
     "pluralName": "mitigating-risks-in-technology-and-business-operations",
-    "displayName": "Mitigating Risks in Technology and Business Operations",
+    "displayName": "Mitigating Risks in Tech and Business Operations",
     "description": ""
   },
   "options": {
@@ -54,14 +54,15 @@
       "component": "link.modules"
     },
     "MiddleImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
