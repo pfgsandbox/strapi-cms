@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Articles",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "string"
+    },
+    "post_date": {
+      "type": "datetime"
+    },
+    "leadspace_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "article_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::article-type.article-type",
+      "inversedBy": "articles"
+    },
+    "challenge": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::challenge.challenge",
+      "inversedBy": "articles"
+    },
+    "expertise": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expertise.expertise",
+      "mappedBy": "article"
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::author.author",
+      "mappedBy": "articles"
+    },
+    "pdf_list": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "mappedBy": "articles"
+    }
+  }
+}

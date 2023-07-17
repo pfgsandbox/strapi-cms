@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "advisory_services",
+  "info": {
+    "singularName": "advisory-service",
+    "pluralName": "advisory-services",
+    "displayName": "Advisory services",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "ClientSuccess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.client-success"
+    },
+    "OurAdvisoryExperts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.experts-cards"
+    },
+    "AdvisoryServicesForChallenges": {
+      "displayName": "Cards",
+      "type": "component",
+      "repeatable": false,
+      "component": "link.cards"
+    },
+    "AdvisoryServicesCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    }
+  }
+}

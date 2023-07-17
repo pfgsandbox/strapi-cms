@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_link_images",
+  "info": {
+    "displayName": "IconImage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

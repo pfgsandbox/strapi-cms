@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_link_top_banners",
+  "info": {
+    "displayName": "Top Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

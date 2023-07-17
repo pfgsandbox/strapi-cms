@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "enhancing_programs_for_regulatory_compliance_and_conduct_risks",
+  "info": {
+    "singularName": "enhancing-programs-for-regulatory-compliance-and-conduct-risk",
+    "pluralName": "enhancing-programs-for-regulatory-compliance-and-conduct-risks",
+    "displayName": "Enhancing Programs for Regulatory, Compliance, and Conduct Risk",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InsightsAndEvents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.insight-and-events-cards"
+    },
+    "ClientSuccess": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.client-success"
+    },
+    "OurExperts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.experts-cards"
+    },
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "TheChallenge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "MainContentDescription": {
+      "type": "text"
+    },
+    "MainContentCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    },
+    "EngamentTitle": {
+      "type": "string"
+    },
+    "EngagementCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    }
+  }
+}

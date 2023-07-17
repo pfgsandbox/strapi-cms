@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_values",
+  "info": {
+    "singularName": "our-value",
+    "pluralName": "our-values",
+    "displayName": "Our Values"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "ATrustedPartner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "LivingOurValues": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Cards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    }
+  }
+}

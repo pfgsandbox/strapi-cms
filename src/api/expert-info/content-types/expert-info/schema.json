@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expert_infos",
+  "info": {
+    "singularName": "expert-info",
+    "pluralName": "expert-infos",
+    "displayName": "Experts Info",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "thoughtLeadership": {
+      "type": "richtext"
+    },
+    "experience": {
+      "type": "richtext"
+    },
+    "expertise": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expertise.expertise"
+    },
+    "highlights": {
+      "type": "richtext"
+    },
+    "education": {
+      "type": "richtext"
+    },
+    "press": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

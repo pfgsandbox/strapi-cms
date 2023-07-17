@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_stories",
+  "info": {
+    "singularName": "our-story",
+    "pluralName": "our-stories",
+    "displayName": "Our Story",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "OurStory": {
+      "displayName": "Page Content",
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "OurPartnership": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "ACloserLook": {
+      "displayName": "Modules",
+      "type": "component",
+      "repeatable": true,
+      "component": "link.modules"
+    },
+    "BottomBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    },
+    "ByTheNumbers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    }
+  }
+}

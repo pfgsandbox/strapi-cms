@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Events",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "string"
+    },
+    "post_date": {
+      "type": "datetime"
+    },
+    "event_date": {
+      "type": "date"
+    },
+    "event_time": {
+      "type": "time"
+    },
+    "event_time_zone": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "json"
+    },
+    "leadspace_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "leadspace_title": {
+      "type": "string"
+    },
+    "challenges": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::challenge.challenge",
+      "mappedBy": "event"
+    },
+    "expertise": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::expertise.expertise",
+      "inversedBy": "events"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "combating_financial_crime_and_frauds",
+  "info": {
+    "singularName": "combating-financial-crime-and-fraud",
+    "pluralName": "combating-financial-crime-and-frauds",
+    "displayName": "Combating Financial Crime and Fraud",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InsightsAndEvents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.insight-and-events-cards"
+    },
+    "ClientSuccess": {
+      "displayName": "Client Success",
+      "type": "component",
+      "repeatable": false,
+      "component": "link.client-success"
+    },
+    "OurExperts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.experts-cards"
+    },
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "TheChallenge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "MainContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    },
+    "MainContentDescription": {
+      "type": "text"
+    },
+    "Engagements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    },
+    "EngamentTitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_success_pages",
+  "info": {
+    "singularName": "client-success-page",
+    "pluralName": "client-success-pages",
+    "displayName": "Client Success",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "MiddleBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    }
+  }
+}

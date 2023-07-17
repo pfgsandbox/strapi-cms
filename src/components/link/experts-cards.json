@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_link_experts_cards",
+  "info": {
+    "displayName": "Experts cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experts_infos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expert-info.expert-info"
+    }
+  }
+}

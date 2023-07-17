@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_link_office_informations",
+  "info": {
+    "displayName": "Office Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "office": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::office.office"
+    }
+  }
+}

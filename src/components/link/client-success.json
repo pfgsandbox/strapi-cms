@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_link_client_successes",
+  "info": {
+    "displayName": "Client Success Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "client_successes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client-successe.client-successe"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "managed_services",
+  "info": {
+    "singularName": "managed-service",
+    "pluralName": "managed-services",
+    "displayName": "Managed Services"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "MiddleBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    },
+    "ClientSuccess": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.client-success"
+    },
+    "ManagedServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.modules"
+    },
+    "BottomBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    },
+    "OurExperts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.experts-cards"
+    }
+  }
+}

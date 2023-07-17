@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_link_leadership_cards",
+  "info": {
+    "displayName": "Leadership Cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experts_infos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expert-info.expert-info"
+    }
+  }
+}

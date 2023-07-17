@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "firm_leaderships",
+  "info": {
+    "singularName": "firm-leadership",
+    "pluralName": "firm-leaderships",
+    "displayName": "Firm Leadership",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FirmLeadership": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "OperationsAndStrategyCommittee": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    },
+    "FirmLeadersCards": {
+      "displayName": "Leadership Cards",
+      "type": "component",
+      "repeatable": false,
+      "component": "link.leadership-cards"
+    }
+  }
+}

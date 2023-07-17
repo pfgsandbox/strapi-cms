@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_link_authors",
+  "info": {
+    "displayName": "Authors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author"
+    }
+  }
+}

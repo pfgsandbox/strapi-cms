@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_types",
+  "info": {
+    "singularName": "article-type",
+    "pluralName": "article-types",
+    "displayName": "Article type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "article_type"
+    }
+  }
+}

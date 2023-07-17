@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "controlling_financial_risks",
+  "info": {
+    "singularName": "controlling-financial-risk",
+    "pluralName": "controlling-financial-risks",
+    "displayName": "Controlling Financial Risks",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InsightAndEvents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.insight-and-events-cards"
+    },
+    "ClientSuccess": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.client-success"
+    },
+    "OurExperts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.experts-cards"
+    },
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "TheChallenge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "MainContentCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    },
+    "Engagements": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    },
+    "MidddleImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    },
+    "EngagementTitle": {
+      "type": "text"
+    },
+    "MainContentDescription": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "technology_solutions",
+  "info": {
+    "singularName": "technology-solution",
+    "pluralName": "technology-solutions",
+    "displayName": "Technology Solutions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "PromontoryIBMRegtech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    },
+    "InsightsAngEvents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.insight-and-events-cards"
+    },
+    "OurPartnership": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "TechnologyServices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    },
+    "OurRegExperts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.experts-cards"
+    }
+  }
+}

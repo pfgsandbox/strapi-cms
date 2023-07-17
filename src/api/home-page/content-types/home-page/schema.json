@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SEO": {
+      "displayName": "SEO",
+      "type": "component",
+      "repeatable": true,
+      "component": "link.seo",
+      "required": true
+    },
+    "Leadspace": {
+      "displayName": "Leadspace",
+      "type": "component",
+      "repeatable": true,
+      "component": "link.leadspace"
+    },
+    "InsightsAndEventsCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.insight-and-events-cards"
+    },
+    "ExpertsCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.experts-cards"
+    }
+  }
+}

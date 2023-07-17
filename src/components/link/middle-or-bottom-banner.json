@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_link_middle_or_bottom_banners",
+  "info": {
+    "displayName": "Middle or bottom banner"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "BackgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

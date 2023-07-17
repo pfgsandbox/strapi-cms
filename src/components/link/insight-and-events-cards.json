@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_link_insight_and_events_cards",
+  "info": {
+    "displayName": "Insights and events cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

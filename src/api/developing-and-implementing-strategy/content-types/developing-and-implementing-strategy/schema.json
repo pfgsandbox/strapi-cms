@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "developing_and_implementing_strategies",
+  "info": {
+    "singularName": "developing-and-implementing-strategy",
+    "pluralName": "developing-and-implementing-strategies",
+    "displayName": " Developing and Implementing Strategy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InsightsAndEvents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.insight-and-events-cards"
+    },
+    "ClientSuccess": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.client-success"
+    },
+    "OurExperts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.experts-cards"
+    },
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "StrategyAndOptimization": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "MainContentDescription": {
+      "type": "text"
+    },
+    "MainContentCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    },
+    "MiddleImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "EngagementTitle": {
+      "type": "string"
+    },
+    "EngagementCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    }
+  }
+}

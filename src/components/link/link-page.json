@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_link_link_pages",
+  "info": {
+    "displayName": "PageLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigation_and_footer_bars",
+  "info": {
+    "singularName": "navigation-and-footer-bar",
+    "pluralName": "navigation-and-footer-bars",
+    "displayName": "Navigation and Footer bar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NavegationBar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.nav-bar"
+    },
+    "Footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "link.footer"
+    }
+  }
+}

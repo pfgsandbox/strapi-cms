@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "insights_and_events",
+  "info": {
+    "singularName": "insights-and-event",
+    "pluralName": "insights-and-events",
+    "displayName": "Insights and Events",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Articles": {
+      "displayName": "Article",
+      "type": "component",
+      "repeatable": false,
+      "component": "link.article"
+    },
+    "Authors": {
+      "displayName": "Authors",
+      "type": "component",
+      "repeatable": true,
+      "component": "link.authors"
+    },
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "MiddleBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.middle-or-bottom-banner"
+    }
+  }
+}

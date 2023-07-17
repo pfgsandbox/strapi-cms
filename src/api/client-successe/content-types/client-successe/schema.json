@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_successes",
+  "info": {
+    "singularName": "client-successe",
+    "pluralName": "client-successes",
+    "displayName": "Client Successes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "text"
+    },
+    "post_date": {
+      "type": "datetime"
+    },
+    "pdfs": {
+      "type": "text"
+    },
+    "challenges": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::challenge.challenge"
+    },
+    "expertise": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::expertise.expertise",
+      "inversedBy": "client_successes"
+    }
+  }
+}

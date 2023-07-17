@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacies",
+  "info": {
+    "singularName": "privacy",
+    "pluralName": "privacies",
+    "displayName": "Privacy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TopBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.top-banner"
+    },
+    "WebsitePrivacyPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.page-content"
+    },
+    "PolicyDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.modules"
+    }
+  }
+}
