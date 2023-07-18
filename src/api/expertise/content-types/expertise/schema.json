@@ -39,6 +39,12 @@
       "relation": "manyToOne",
       "target": "api::article.article",
       "inversedBy": "expertise"
+    },
+    "experts_infos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::expert-info.expert-info",
+      "inversedBy": "expertise"
     }
   }
 }
