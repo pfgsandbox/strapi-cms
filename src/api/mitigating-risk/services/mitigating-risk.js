@@ -6,4 +6,4 @@
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::mitigating-risks-in-technology-and-business-operation.mitigating-risks-in-technology-and-business-operation');
+module.exports = createCoreService('api::mitigating-risk.mitigating-risk');

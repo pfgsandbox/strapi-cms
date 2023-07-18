@@ -6,4 +6,4 @@
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::mitigating-risks-in-technology-and-business-operation.mitigating-risks-in-technology-and-business-operation');
+module.exports = createCoreRouter('api::mitigating-risk.mitigating-risk');
