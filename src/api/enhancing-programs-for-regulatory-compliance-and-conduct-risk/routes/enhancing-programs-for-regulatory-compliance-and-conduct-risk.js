@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * enhancing-programs-for-regulatory-compliance-and-conduct-risk router
+ * enhancing-program router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
