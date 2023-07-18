@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * enhancing-programs-for-regulatory-compliance-and-conduct-risk service
+ * enhancing-program service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;

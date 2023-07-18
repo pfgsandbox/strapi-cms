@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * enhancing-programs-for-regulatory-compliance-and-conduct-risk controller
+ * enhancing-program controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
