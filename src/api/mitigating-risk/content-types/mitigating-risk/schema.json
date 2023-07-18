@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "mitigating_risks_in_technology_and_business_operations",
+  "collectionName": "mitigating_risk",
   "info": {
-    "singularName": "mitigating-risks-in-technology-and-business-operation",
-    "pluralName": "mitigating-risks-in-technology-and-business-operations",
+    "singularName": "mitigating-risk",
+    "pluralName": "mitigating-risks",
     "displayName": "Mitigating Risks in Tech and Business Operations",
     "description": ""
   },
