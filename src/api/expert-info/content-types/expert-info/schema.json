@@ -13,19 +13,24 @@
   "pluginOptions": {},
   "attributes": {
     "Name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "jobTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "location": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "thoughtLeadership": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "experience": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "expertise": {
       "type": "relation",
@@ -33,16 +38,19 @@
       "target": "api::expertise.expertise"
     },
     "highlights": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "education": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "press": {
       "type": "richtext"
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }

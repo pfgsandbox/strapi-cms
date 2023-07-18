@@ -13,16 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "first_name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "last_name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "email": {
-      "type": "email"
+      "type": "email",
+      "required": true,
+      "unique": true
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
       "type": "string"
@@ -31,13 +36,15 @@
       "type": "text"
     },
     "summary": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "experience_highlights": {
       "type": "string"
     },
     "education": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "social_media": {
       "type": "json"
@@ -57,7 +64,8 @@
       ]
     },
     "isJunior": {
-      "type": "boolean"
+      "type": "boolean",
+      "required": true
     },
     "challenges": {
       "type": "relation",

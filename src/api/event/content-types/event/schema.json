@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
       "type": "string"
@@ -22,16 +23,20 @@
       "type": "string"
     },
     "post_date": {
-      "type": "datetime"
+      "type": "datetime",
+      "required": true
     },
     "event_date": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "event_time": {
-      "type": "time"
+      "type": "time",
+      "required": true
     },
     "event_time_zone": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "cta": {
       "type": "json"

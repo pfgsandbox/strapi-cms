@@ -13,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "url": {
       "type": "string"
@@ -25,7 +27,8 @@
       "type": "text"
     },
     "post_date": {
-      "type": "datetime"
+      "type": "datetime",
+      "required": true
     },
     "pdfs": {
       "type": "text"
