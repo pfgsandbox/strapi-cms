@@ -18,13 +18,15 @@
     },
     "client_successes": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::client-successe.client-successe"
+      "relation": "manyToMany",
+      "target": "api::client-successe.client-successe",
+      "mappedBy": "services"
     },
     "events": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::event.event"
+      "relation": "manyToMany",
+      "target": "api::event.event",
+      "mappedBy": "services"
     },
     "articles": {
       "type": "relation",

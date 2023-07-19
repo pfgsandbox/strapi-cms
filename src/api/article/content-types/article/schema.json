@@ -73,6 +73,17 @@
       "relation": "manyToMany",
       "target": "api::service.service",
       "mappedBy": "articles"
+    },
+    "aboutAuthor": {
+      "type": "richtext",
+      "required": true
+    },
+    "attachPDF": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

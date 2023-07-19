@@ -33,6 +33,12 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "challenge"
+    },
+    "client_successes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::client-successe.client-successe",
+      "mappedBy": "challenges"
     }
   }
 }

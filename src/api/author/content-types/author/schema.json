@@ -35,21 +35,7 @@
     "hash": {
       "type": "text"
     },
-    "summary": {
-      "type": "string",
-      "required": true
-    },
-    "experience_highlights": {
-      "type": "string"
-    },
-    "education": {
-      "type": "string",
-      "required": true
-    },
     "social_media": {
-      "type": "json"
-    },
-    "press": {
       "type": "json"
     },
     "profile_image": {
@@ -89,6 +75,26 @@
       "relation": "manyToMany",
       "target": "api::article.article",
       "inversedBy": "authors"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::event.event",
+      "mappedBy": "authors"
+    },
+    "summary": {
+      "type": "richtext",
+      "required": true
+    },
+    "experienceHightlights": {
+      "type": "richtext"
+    },
+    "education": {
+      "type": "richtext",
+      "required": true
+    },
+    "socialMedia": {
+      "type": "richtext"
     }
   }
 }

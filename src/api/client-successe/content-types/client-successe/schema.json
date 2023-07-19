@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "content": {
-      "type": "text",
-      "required": true
-    },
     "url": {
       "type": "string"
     },
@@ -30,19 +26,38 @@
       "type": "datetime",
       "required": true
     },
-    "pdfs": {
-      "type": "text"
-    },
     "challenges": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::challenge.challenge"
+      "relation": "manyToMany",
+      "target": "api::challenge.challenge",
+      "inversedBy": "client_successes"
     },
     "expertise": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::expertise.expertise",
       "inversedBy": "client_successes"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "pdfs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "services": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::service.service",
+      "inversedBy": "client_successes"
+    },
+    "tagline": {
+      "type": "string",
+      "required": false
     }
   }
 }
